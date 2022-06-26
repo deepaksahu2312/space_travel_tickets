@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+  /* background-color: rgb(228, 222, 222); */
+}
+.heading{
+    margin-top: 27px;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: hsl(194, 72%, 57%);
+    font-size: 35px;
+    text-shadow: 5px 5px 5px rgb(79, 103, 126);
+    font-variant: small-caps;
+}
+.container{
+    margin: 0px 10px;
+    padding: 5px;
+    display: contents;
+    height: 1%;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+}
+
+.design{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.desc div{
+    size: 100px;
+    display: flex;
+}
+.navbar div{
+    align-items: center;
+    background-color: black;
+    width: 93%;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;   
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+ }
+ .navbar ul div h5{
+     font-size: x-large;
+     transition: 3s ease;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
+
+ desc div img{
+     border-radius: 100%;
+     
+ }
+.navbar li a{
+     color: white;
+     font-size: large;
+     text-decoration: none;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.de{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.platform{
+    font-size: large;
+    margin: 15px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.platform a #twitter_id{
+     margin: 1rem 2rem;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*  */
+.navbar ul li a:hover{
+  color: rgb(112, 123, 136);
+  /* border-radius:50rem 0rem 1000rem; */
+  text-decoration:none;
+  /* transition: 3ms ease all; */
+}
+/* body{
+   background-color: rgb(184, 115, 115); 
+} */
+#logo{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+#logo h5{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 5px 5px 5px rebeccapurple;
+}
+#use_it{
+    padding: 1px;
+    border-radius: 10px;
+}
+#use_itagain{
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.set{
+    margin: auto;
+    padding: 5px;
+    background-image: url('/img/black\ space.jfif');
+    /* border:solid azure 3px ; */
+    border-radius: 5px;
+    color: rgb(141, 209, 236);
+    margin-left: 25px;
+}
+.platform{
+    background-color: rgba(241, 243, 250, 0.11);
+    margin: 2rem 1rem;
+       
+}
+
+span #twitter_id,#facebook_id,#insta_id,#utube_id{
+    margin: 1rem 1rem 1rem;
+    
+}
+
+.wishes{
+    margin-top: 12rem;
+}
+.foot{
+    /* max-width: 100%; */
+    margin: 0px 50px;
+}
+
+/* slider css */
+.slides{
+    height: 50%;
+}
+/* fix the day for travel */
+
+.form{
+    margin-top: 10vw;
+    display: block;
+    flex-direction: column;
+    font-family: cursive;
+    font-size: larger;
+    height: 100%;
+
+    text-align: center;
+    color: white;
+    background-image: url('/img/Virgin-Galactic-G.jpg');
+    /* width: 93%; */
+    /* background-position: 10vw; */
+    background-repeat: no-repeat;
+}
+.form h1{
+    padding: 5vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: 2s ease-in-out;
+
+}
+.sjade input{
+    /* max-width: 10000px; */
+    margin: 15px;
+    padding: 10px 5px;
+    cursor: pointer;
+    background: azure;
+    color: grey;
+}
+#unique-id{
+    border-style: ridge; 
+}
+.sjade #submit{
+    border-radius: 10px;
+}
+.border-sjawat{
+    padding: 50px 0px;
+}
+/* all about gallery css */
+
+.lga h3{
+  font-size: 40px;   
+  background-color: #4a77b3;
+  max-width: 300px;
+  border-radius: 50px;
+  margin-left: 640px;
+  margin-top: 30px;
+  text-align: center;
+}
+.lga h3:hover{
+    background-color: lightcoral;
+}
+.lga img{
+    border-radius: 10px;
+}
+.fixday{
+    font-size: 100px;
+}

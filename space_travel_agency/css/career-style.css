@@ -1,0 +1,30 @@
+.headcareer p{
+    text-align: center;
+    font-size: 50px;
+    top: 0;
+    margin-top: 0px;
+    background: rgba(252, 255, 101, 0.548);
+}
+#upper{
+    position: absolute;
+    top: 70px;
+    left:400px;
+    color: rgb(165, 42, 42);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.career-logo{
+    display: flex;
+    left: 100px;
+}
+.career-logo img{
+    width: 200px;
+    height: 150px;
+}
+#latOp{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left:43rem;
+    width: 18%;
+    background-color: #48f274;
+    color: #f71f1f;
+}
